@@ -1,0 +1,346 @@
+/* styles/Home.module.css */
+
+.container {
+  
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav li {
+  margin-right: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.loginLinks {
+  display: flex;
+  align-items: center;
+}
+
+/* Add these styles to your existing CSS */
+.loginLinks .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.loginLinks .dropdown .dropbtn {
+  font-size: 16px;
+  color: #007bff;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+/* Add these styles to your existing CSS */
+.loginText {
+  float: left;
+  padding-right: 20px; /* Add some spacing between "Login" and the dropdown arrow */
+}
+
+.loginLinks .dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.loginLinks .dropdownContent a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+.loginLinks .dropdownContent a:hover {
+  background-color: #f2f2f2;
+}
+
+.loginLinks:hover .dropdownContent {
+  display: block;
+}
+
+.loginLinks a {
+  margin-right: 20px;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.loginLinks a:hover {
+  text-decoration: underline;
+}
+
+.userPanel {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 2px;
+}
+
+
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Assuming you're using CSS modules with React */
+
+/* styles.module.css */
+
+/* Style the button container */
+.customButton {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  padding: 10px; /* Add padding for spacing */
+  border: none;
+  background-color: #007bff; /* Button background color */
+  color: white; /* Text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth hover effect */
+  border-radius: 8px; /* Rounded corners */
+  margin-right: 20px;
+  
+}
+
+/* Style the icon */
+.icon {
+  font-size: 24px; /* Enlarge the icon size */
+  margin-right: 10px; /* Add spacing between the icon and text */
+  
+}
+
+/* Style the button text */
+.buttonText {
+  font-size: 14px; /* Adjust text size */
+}
+
+/* Add a hover effect */
+.customButton:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+
+
+
+
+.searchContainer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  padding: 24px 20px;
+  border: none; 
+  border-radius: 60px; /* Add round corners */
+  font-size: 20px;
+  color: #cac7ff;
+  outline: none;
+  flex: 1;
+  backdrop-filter: blur(4px) saturate(180%);
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); Add a subtle box shadow */
+}
+
+.searchInput::placeholder {
+  color: #cac7ff;
+}
+.searchButton {
+  background: #58629b;
+  background-size: cover;
+  width: 60px;
+  height: 60px; /* Adjust height to match input */
+  border: 0; /* Remove button border */
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute; /* Position the button within the input*/
+  right: 27%; /* Adjust the right distance from the input edge
+  /* top: 50%; Vertically center the button */
+  /* transform: translateY(-49%); Center vertically */ 
+}
+
+
+
+.searchInput:focus {
+  outline: none; /* Remove focus outline */
+}
+
+.searchContainer {
+  position: relative; /* Position for absolute children */
+}
+
+
+
+.userPanelText{
+  text-align: center;
+  color: #f2f2f2;
+  text-shadow: #0056b3;
+}
+
+.userPanelText .regularText {
+  font-size: 18px; /* Adjust the font size as needed */
+  color: #f2f2f2;
+  font-weight: normal; /* Make it non-bold */
+}
+
+/* Home.module.css */
+
+/* ... (existing styles) */
+
+/* Add spacing and background color to buttons */
+.getJobButton,
+.knowMoreButton {
+  margin-right: 10px; /* Add spacing between buttons */
+  padding: 10px 20px; /* Adjust padding for button size */
+  background-color: #007bff; /* Blue background color */
+  color: white; /* Text color */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Adjust font size */
+}
+
+/* Style the buttons on hover */
+.getJobButton:hover,
+.knowMoreButton:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Home.module.css */
+
+/* ... (existing styles) */
+
+/* Adjust the layout for the second pointer section */
+.pointsSectionAlternate {
+  display: flex;
+  justify-content: flex-end; /* Move content to the right */
+  align-items: center; /* Vertically center content */
+  padding: 40px; /* Add padding as needed */
+}
+
+.pointsAlternate {
+  display: flex;
+  flex-direction: row-reverse; /* Reverse the order of elements */
+  align-items: center; /* Vertically center content */
+  flex: 1; /* Allow the section to grow to fill available space */
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between; /* Place content on both sides */
+  align-items: center; /* Vertically center content */
+  flex-wrap: wrap; /* Allow content to wrap to the next line if needed */
+}
+
+/* Style for the pointer section */
+.pointerSection {
+  flex: 1; /* Allow the pointer section to grow and take available space */
+  padding: 20px; /* Add padding for spacing */
+}
+.pointsListAlternate {
+  flex: 1; /* Allow the list to grow and take available space */
+}
+
+.videoSpaceAlternate {
+  flex: 1; /* Allow the video space to grow and take available space */
+}
+
+.videoSpace {
+  flex: 1; /* Allow the video container to grow and take available space */
+  padding: 20px; /* Add padding for spacing */
+  text-align: right; /* Align video to the right */
+}
+
+/* Style for the video element */
+.videoSpace video {
+  max-width: 100%; /* Make sure the video fits within its container */
+  height: auto; /* Maintain the aspect ratio of the video */
+}
+
+
+
+/* Additional styling for the buttons in the second pointer section */
+.buttonsContainerAlternate {
+  display: flex;
+  margin-top: 20px;
+}
+
+.aboutJobsSection {
+  text-align: center; /* Center-align the content */
+  padding: 40px; /* Add padding for spacing */
+}
+
+/* Style for the heading */
+.aboutJobsHeading {
+  font-size: 24px; /* You can adjust the font size */
+}
+
+/* Style for the text */
+.aboutJobsText {
+  font-size: 18px; /* You can adjust the font size */
+}
+
+
+
+.exploreButton,
+.learnMoreButton {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.exploreButton:hover,
+.learnMoreButton:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
