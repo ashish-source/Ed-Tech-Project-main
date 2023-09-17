@@ -67,7 +67,7 @@ export default function Home() {
               </span>
               <br />
               <span className={`${styles.regularText}`}>
-                One of India's Most Comprehensive Job and Education Search
+                One of India Most Comprehensive Job and Education Search
               </span>
             </h2>
           </div>
@@ -169,7 +169,7 @@ export default function Home() {
 With over 18 years of experience in the education sector, knowledge, know-how and understanding of the pain points of the recruitment process in the prevailing educational institutions, we intend to save time and money by providing a simplified and integrated recruitment platform which allows relevant matchmaking between the stakeholders, with a short turnaround time. The platform pays equal attention to teaching joband non-teaching jobs.
 You can browse from thousands of teacher jobs vacancies and apply for relevant jobs in the education sector near to you. Narrow your job search by part-time, full-time, remote, location, salary, and role to meet your requirements.
 
-Jobs in Education, India's leading job portal, allows you to accelerate your search for a wide range of Teaching and Non-Teaching Jobs in your preferred locations. Register right now!
+Jobs in Education, Indias leading job portal, allows you to accelerate your search for a wide range of Teaching and Non-Teaching Jobs in your preferred locations. Register right now!
     </p>
   </div>
 </section>
